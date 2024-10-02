@@ -1,0 +1,2 @@
+sum = sum + (1<<i) * (k1*(k1-1)/2) + (1<<i) * (k1*k0) 
+Sum of Bitwise OR of all pairs in a given array
