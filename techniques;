@@ -1,2 +1,12 @@
 sum = sum + (1<<i) * (k1*(k1-1)/2) + (1<<i) * (k1*k0) 
 Sum of Bitwise OR of all pairs in a given array
+
+
+This technique is used to find the no of subarrays; jisme xor odd no of set bit hoga ; 
+
+Prefix xor array bnao special technique; hai;
+Main prefix vector and us ith tk sbka xor calculate kro aur no of set bits count kro; agar even hua tw isse pehle odd kitna hoga count kro and till ith odd hua tw usse pehle even kitna hoga yeh bhi count me add karo thik? And final me return kro sum;
+
+
+usually krte kya hai ki set bit 0 se 32 posn tk analyse krte hai; aur phr answer calculate hai;
+xor wala case sensitive hai check krlena ki odd se pehkle even kitne aaye and even se pehle odd kitne aaye;
